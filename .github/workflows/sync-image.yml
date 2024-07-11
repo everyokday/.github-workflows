@@ -27,4 +27,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/mailcow/sogo:1.123 docker://registry.cn-hangzhou.aliyuncs.com/galahadw/sogo:1.123
+         skopeo copy docker://docker.io/ollama/ollama docker://registry.cn-hangzhou.aliyuncs.com/everyokday/ollama
