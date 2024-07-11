@@ -27,5 +27,5 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/ollama/ollama docker://registry.cn-hangzhou.aliyuncs.com/everyokday/ollama
+         skopeo copy docker://docker.io/ollama/ollama:0.1.30-rc4 docker://registry.cn-hangzhou.aliyuncs.com/1nl/1nl-admin/ollama:0.1.30-rc4
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
